@@ -1,0 +1,429 @@
+body{
+    height: 100%;
+}
+.form_weight1{
+
+    max-width: 500px;
+    min-width: 500px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+
+.form_weight2{
+    display: block;
+    max-width: 300px;
+    padding: 10px;
+    margin: 0;
+    position: relative;
+}
+
+
+.index_btn_position{
+    padding: 10px;
+}
+.paddining_index{
+    padding: 15px;
+}
+
+.marginning_index{
+    margin-left: 3%;
+}
+
+.index_heade_text_update{
+    color: white;
+}
+
+
+.danger_btn_color{
+    color: #dd3449;
+}
+
+
+.green{
+    color: #167347;
+}
+
+
+.primary{
+    color: #0dcaf0;
+}
+
+.warning{
+    color: #ffc107;
+}
+
+a:hover
+{
+    color: white !important;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    min-width: 100%;
+    flex-direction: row;
+}
+.container2{
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+}
+.walls-box {
+    margin-left: 5%;
+    flex: auto;
+}
+.box1{
+    flex: 1;
+}
+.box2{
+    flex: 2;
+}
+.box3{
+    flex: 3;
+}
+.box3_1{
+    flex:1;
+    min-width: 50%;
+    margin-left: 30px;
+}
+.box-generation{
+    flex: 1;
+    min-width: 50%;
+    padding: 5px;
+    border-left:#212529 5px solid;
+
+}
+.col-container{
+    display: flex;
+    min-width: 100%;
+    flex-direction: column;
+}
+
+.goods_print{
+    padding: 15px;
+    min-width: 23%;
+    min-height: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.goods_text_name{
+    text-align: center;
+    font-size: 25px;
+}
+.goods_sizing{
+    max-width: 23.4%;
+    max-height: 70%;
+}
+.h1_center{
+    text-align: center;
+}
+.header-skipped{
+    margin-top: 100px;
+}
+
+.banner_container{
+    display: flex;
+    min-width: 100%;
+    min-height: 350px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.image-maxsize{
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+}
+.footer-fix{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex: 1 1 auto;
+}
+
+.star-color > ion-icon{
+    color: rgb(249, 228, 0);
+
+}
+
+.generation-container{
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    min-width: 80%;
+}
+
+.position-center {
+    margin-left: 50%;
+}
+.dropdown_menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+}
+a{text-decoration: none; color: white;}
+
+.dropdown_item li{
+    background: #212529;
+    color: #fff;
+    padding: 10px 15px;
+    display: block;
+    border-bottom: 1px solid #666;
+
+}
+.dropdown_item li:hover{
+    background: #666;
+    
+}
+.dropdown_menu{
+position: relative;
+}
+.dropdown_item{
+position: absolute;
+width: 150%;
+top: -99999em;
+opacity: 0;
+
+}
+.dropdown_menu:hover .dropdown_item{
+    opacity: 1;
+    top:100%;
+    color: #fff;
+}
+
+.dropdown_submenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.dropdown_subitem ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown_subitem li:hover{
+    background: #666;
+    color: #fff;
+}
+
+.dropdown_submenu{
+    position: relative;
+}
+    .dropdown_subitem{
+    position: absolute;
+    width: 150%;
+    top: -99999em;
+    opacity: 0;  
+    left: 100%;
+    border-left: solid 5px #167347;;
+}
+.dropdown_submenu:hover .dropdown_subitem{
+    color: #fff;
+    opacity: 1;
+    top:0;
+}
+li a :hover{
+    color: #fff !important;
+}
+
+.gener-btn{
+    top: 60%;
+    position: absolute;
+}
+.image-generation{
+    position: relative;
+    padding: 20px;
+}
+
+.goldman{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 20px;
+    padding: 1%;
+    border: solid 1px white;
+    border-radius: 10%;
+}
+.goldman:hover{
+    border: solid 1px rgb(153, 115, 19);
+    border-radius: 10%;
+    color: rgb(153, 115, 19)  !important;
+}
+
+.index_heade_text_update:hover{
+    color: rgb(140, 139, 139);
+}
+
+.image-generation{
+max-width: 160;
+max-height: 160;
+}
+
+.parent_image{
+position: relative;
+min-width: 400px;
+min-height: 400px;
+}
+.image2{
+    flex-direction: column;
+    min-width: 266px;
+    min-height: 266px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.bigredtext{
+    font-size: 20;
+    color: #dd3449;
+}
+
+.image3{
+    min-width: 400px;
+    min-height: 400px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    min-width: 800px;
+    min-height: 400px;
+}
+.container2_2{
+    display: flex;
+    flex-direction: row;
+    min-width: 800px;
+    min-height: 400px;
+}
+
+.alter-danger-borders{
+    margin: 20%;
+    position: relative;
+}
+.text-alert{
+    margin-left: 35%;
+}
+.mr-4{
+    margin-right: 60px;
+    margin-left: 10px;
+}
+
+.white-color{
+    color: #fff;
+}
+
+.print-container{
+    border-left: solid black 1px;
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 50px;
+    padding-left: 5px;
+    padding-top: -50px;
+}
+.com_txtar{
+    width: 800px;
+}
+.rt_txtar{
+    width: 100px;
+    height: 38px;
+}
+.opacity0{
+    opacity: 0;
+}
+.mini-size{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.position_center{
+    margin-left:20%;
+}
+.resizing1{
+    display: inline-block;
+}
+.container_2{
+    display: flex;
+    padding: 10px;
+    
+}
+.margleft{
+    margin-left: 10px;
+}
+
+.acc_container{
+    display: flex;
+    direction: row !important;
+}
+
+.form1{
+
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.form2{
+    max-width: 550px;
+    min-width: 550px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+.btn-save-pos{
+    position: relative;
+   
+}
+    .big-icon{font-size: 90px;
+    }
+    .acc_name{
+        font-size: 42px;
+    }
+.grid-column{
+    grid-column: 2;
+}
+.account_input_maxsize{
+    max-width: 200px;
+    max-height: 40px;
+}
+.size-fix{
+    min-width: 250;
+    min-height: 50;
+    max-width: 250;
+    max-height: 50;
+}
+
+.ml-5{
+    margin-left: 50%;
+}
+.img_red{
+    border-radius: 10%;
+
+}
+.micro-size{
+    max-width: 1px;
+    max-height: 1px;
+}
+
+.form6{
+    padding: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border: #212529 solid 1px;;
+    border-radius: 5%;
+}
+
+.img_max-size{
+    max-width: 450 !important;
+    max-height: 450 !important; 
+}
+
